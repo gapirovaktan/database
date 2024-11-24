@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         EmployeeData employeeData = new EmployeeData();
 
-        Employee emp1 = new Employee("Izat Manapov", "Mapper", 7300, new Date());
+        Employee emp1 = new Employee("Gapirov Aktan", "Mapper", 7300, new Date());
         employeeData.createEmployee(emp1);
         System.out.println("Employee have just created.");
 
