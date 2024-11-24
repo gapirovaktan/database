@@ -13,10 +13,12 @@ public class Main {
         Employee emp = employeeData.getEmployeeById(207109);
         System.out.println("Retrieved: " + emp);
 
-        System.out.println("All employees:");
-        for (Employee e : employeeData.getAllEmployees()) {
-            System.out.println(e);
-        }
+           System.out.println("All employees:");
+    for (Employee e : employeeData.getAllEmployees()) {
+        System.out.println(e);
+    }
+}
+
 
         emp.setPosition("Tapper");
         emp.setSalary(79000);
